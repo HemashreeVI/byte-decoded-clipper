@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><img src="icons/32.png" alt=""><div><h1>Byte Decoded Clipper</h1><p id="src">Reading the article…</p></div></header>
+<main id="main" hidden>
+  <div class="tools">
+    <span id="engine" class="badge"></span>
+    <span id="timing" class="badge"></span>
+    <button id="again" class="ghost" title="Try another hook and points">↻ Another take</button>
+  </div>
+  <div id="segments"></div>
+  <p id="tags"></p>
+  <div class="actions"><button id="copy">Copy script</button><button id="dl" class="ghost">Download .txt</button></div>
+  <p id="ai" class="hint"></p>
+</main>
+<p id="err" class="hint" hidden></p>
+<script type="module" src="popup.js"></script>
+</body></html>
